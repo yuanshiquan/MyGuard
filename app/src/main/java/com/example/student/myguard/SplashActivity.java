@@ -2,16 +2,21 @@ package com.example.student.myguard;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
 
+
+public class SplashActivity extends AppCompatActivity {
+      private TextView mVersion;
+         private String MyUtity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-        if(1==1){
-            System.out.println("hello world!");
-            System.out.println("asdfsadf");
-     }
+
+         //   mVersion = MyUtity.getVersion(getApplicationContext());
+
+
+
     }
 }
